@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { CreateUserDTO } from './dtos/createUser.dto';
+import { CreateUserDTO } from './DTOs/createUser.dto';
 import { User } from './interfaces/user.interface';
 import { hash } from 'bcrypt';
 
