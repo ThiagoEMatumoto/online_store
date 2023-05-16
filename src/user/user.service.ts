@@ -19,6 +19,7 @@ export class UserService {
 
     return this.userReporsitory.save({
       ...createUserDTO,
+      typeUser: 1,
       password: passwordHash
     });
 
